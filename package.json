@@ -2,12 +2,11 @@
   "name": "@once-ui-system/magic-portfolio",
   "version": "2.3.0",
   "scripts": {
-    "dev": "next dev",
-    "export": "next export",
-    "build": "next build",
-    "biome-write": "npx @biomejs/biome format --write .",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "biome-write": "npx @biomejs/biome format --write ."
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.0",
